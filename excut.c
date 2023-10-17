@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * excut - main shell excution
+ * @argv: the argument vector from main()
+ *
+ * Return: void
+ */
 void excut(char **argv)
 {
 int stats;
