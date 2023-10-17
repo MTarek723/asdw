@@ -11,6 +11,11 @@ int stats;
 char *command;
 char *real_command;
 pid_t pid;
+if (strcmp(argv[0], "cd") == 0)
+{
+sh_cd(argv[1], argv[0]);
+return;
+}
 if (argv)
 {
 command = argv[0];
